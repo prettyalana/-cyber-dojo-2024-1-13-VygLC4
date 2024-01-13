@@ -3,8 +3,8 @@
 (::) failed steps (::)
 
 
-expected: "x"
-     got: "1"
+expected: "1"
+     got: "x"
 
 (compared using ==)
  (RSpec::Expectations::ExpectationNotMetError)
@@ -16,4 +16,4 @@ cucumber ./hiker.feature:8 # Scenario: FizzBuzz calculator
 
 2 scenarios (1 failed, 1 passed)
 5 steps (1 failed, 4 passed)
-0m0.046s
+0m0.043s
