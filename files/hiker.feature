@@ -6,7 +6,7 @@ Feature: FizzBuzz
     Examples: 
     | given | expected |
     |  1    |   "1"    |
-    | 98    |   "98"   |
+    | 98    |   "98x"   |
     
   Scenario: Multiple of 3 yield Fizz
     Given an input number of 3
