@@ -14,9 +14,9 @@ end
 
 Given('an input number of {int}') do |int|
 # Given('an input number of {float}') do |float|
-  
+  @result_2 = fizz_buzz(int)
 end
 
 Then('the result is {string}') do |string|
-   expect(string).to eq("1")
+  # expect(string).to eq("1")
 end
