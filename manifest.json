@@ -1,0 +1,22 @@
+{
+  "display_name": "Ruby, Cucumber",
+  "image_name": "cyberdojofoundation/ruby_cucumber:d09da14",
+  "filename_extension": [
+    ".rb",
+    ".feature"
+  ],
+  "max_seconds": 10,
+  "tab_size": 2,
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2024,
+    1,
+    13,
+    20,
+    55,
+    22,
+    336838
+  ],
+  "id": "VygLC4"
+}
