@@ -11,4 +11,7 @@ Feature: FizzBuzz
   Scenario: Multiple of 5 yield Buzz
     Given an input number of 10
     Then the result is "Buzz"
-    
+
+  Scenario: Multiple of 15 yield Buzz
+    Given an input number of 30
+    Then the result is "FizzBuzz"
