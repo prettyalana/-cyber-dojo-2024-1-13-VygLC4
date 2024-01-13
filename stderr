@@ -11,4 +11,3 @@
 │ --publish-quiet option. You can also add this to your cucumber.yml:          │
 │ default: --publish-quiet                                                     │
 └──────────────────────────────────────────────────────────────────────────────┘
-Stopped processing SimpleCov as a previous error not related to SimpleCov has been detected

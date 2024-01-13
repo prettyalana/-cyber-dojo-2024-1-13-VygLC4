@@ -1,0 +1,3 @@
+
+COVERAGE: 100.00% -- 2/2 lines in 1 files
+
