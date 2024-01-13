@@ -4,5 +4,5 @@ def answer(lhs,rhs)
 end
 
 def fizz_buzz(int)
-  "x"
+  "1"
 end
