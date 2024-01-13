@@ -1,5 +1,19 @@
-........
+.....F....
 
-4 scenarios (4 passed)
-8 steps (8 passed)
-0m0.036s
+(::) failed steps (::)
+
+
+expected: "Fizz"
+     got: "1"
+
+(compared using ==)
+ (RSpec::Expectations::ExpectationNotMetError)
+./hiker_steps.rb:11:in `"the result is {string}"'
+./hiker.feature:13:in `the result is "Fizz"'
+
+Failing Scenarios:
+cucumber ./hiker.feature:11 # Scenario: Multiple of 3 yield Fizz
+
+5 scenarios (1 failed, 4 passed)
+10 steps (1 failed, 9 passed)
+0m0.045s

@@ -8,6 +8,10 @@ Feature: FizzBuzz
     Given an input number of 3
     Then the result is "Fizz"
 
+  Scenario: Multiple of 3 yield Fizz
+    Given an input number of 6
+    Then the result is "Fizz"
+
   Scenario: Multiple of 5 yield Buzz
     Given an input number of 10
     Then the result is "Buzz"
