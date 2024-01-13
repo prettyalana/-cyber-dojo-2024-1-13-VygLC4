@@ -5,7 +5,7 @@ def fizz_buzz(givenValue)
   if givenValue % 3 == 0
     return "Fizz"
   end
-  if givenValue == 10
+  if givenValue % 5 == 0
     return "Buzz"
   end
   "1"
