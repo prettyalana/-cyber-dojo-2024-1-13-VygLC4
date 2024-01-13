@@ -7,7 +7,7 @@ Feature: FizzBuzz
     | given | expected |
     |  1    |   "1"    |
     | 98    |   "98"   |
-    Examples: 
+    Examples: Multiples of 3 only
     | given | expected |
     |  3    |   "Fizz" |
     |  6    |   "Fizz" |
