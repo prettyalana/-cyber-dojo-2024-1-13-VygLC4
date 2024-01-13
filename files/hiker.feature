@@ -15,20 +15,7 @@ Feature: FizzBuzz
     | given | expected |
     |  10   |   "Buzz" |
     |  100  |   "Buzz" |
-  
-
-  Scenario: Multiple of 5 yield Buzz
-    Given an input number of 10
-    Then the result is "Buzz"
-  
-  Scenario: Multiple of 5 yield Buzz
-    Given an input number of 100
-    Then the result is "Buzz"
-
-  Scenario: Multiple of 15 yield Buzz
-    Given an input number of 30
-    Then the result is "FizzBuzz"
-    
-  Scenario: Multiple of 15 yield Buzz
-    Given an input number of 90
-    Then the result is "FizzBuzz"
+    Examples: Multiples of 15 only
+    | given | expected |
+    |  30   |   "FizzBuzz" |
+    |  90   |   "FizzBuzz" |
