@@ -1,8 +1,11 @@
 Feature: FizzBuzz
 
-  Scenario: FizzBuzz calculator
-    Given an input number of 1
-    Then the result is "1"
+  Scenario Outline: FizzBuzz calculator
+    Given an input number of <given>
+    Then the result is <expected>
+    Examples: 
+    | given | expected |
+    |  1    |   "1"    |
     
   Scenario: FizzBuzz calculator
     Given an input number of 98
