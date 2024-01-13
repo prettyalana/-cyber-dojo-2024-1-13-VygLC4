@@ -3,10 +3,6 @@ Feature: FizzBuzz
   Scenario Outline: FizzBuzz calculator
     Given an input number of <given>
     Then the result is <expected>
-    Examples: 
-    | given | expected |
-    |  1    |   "1"    |
-    | 98    |   "98"   |
     Examples: Multiples of 3 only
     | given | expected |
     |  3    |   "Fizz" |
@@ -19,3 +15,7 @@ Feature: FizzBuzz
     | given | expected |
     |  30   |   "FizzBuzz" |
     |  90   |   "FizzBuzz" |
+    Examples: 
+    | given | expected |
+    |  1    |   "1"    |
+    | 98    |   "98"   |
