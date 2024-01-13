@@ -8,6 +8,6 @@ def fizz_buzz(givenValue)
   if givenValue % 5 == 0
     return "Buzz"
   end
-  "1"
+  givenValue.to_s
 
 end
