@@ -14,9 +14,9 @@ end
 
 Given('an input number of {int}') do |int|
 # Given('an input number of {float}') do |float|
-  pending # Write code here that turns the phrase above into concrete actions
+  
 end
 
 Then('the result is {string}') do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+   expect(string.to_i).to eq("1")
 end
