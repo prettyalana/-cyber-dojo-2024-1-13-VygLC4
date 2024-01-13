@@ -1,19 +1,5 @@
-.............F
+..............
 
-(::) failed steps (::)
-
-
-expected: "FizzBuzz"
-     got: "Fizz"
-
-(compared using ==)
- (RSpec::Expectations::ExpectationNotMetError)
-./hiker_steps.rb:11:in `"the result is {string}"'
-./hiker.feature:29:in `the result is "FizzBuzz"'
-
-Failing Scenarios:
-cucumber ./hiker.feature:27 # Scenario: Multiple of 15 yield Buzz
-
-7 scenarios (1 failed, 6 passed)
-14 steps (1 failed, 13 passed)
-0m0.046s
+7 scenarios (7 passed)
+14 steps (14 passed)
+0m0.025s

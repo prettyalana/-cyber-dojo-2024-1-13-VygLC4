@@ -1,5 +1,5 @@
 def fizz_buzz(givenValue)
-  if givenValue == 30
+  if givenValue % 15 == 0
     return "FizzBuzz"
   end
   if givenValue % 3 == 0
