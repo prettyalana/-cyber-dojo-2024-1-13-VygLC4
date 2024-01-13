@@ -29,4 +29,4 @@ for file in *_steps.rb; do
 done
 
 # Test output can be formatted as progress or documentation
-cucumber --format progress . ${REQUIRES}
+cucumber CUCUMBER_PUBLISH_QUIET=true --format progress . ${REQUIRES}
