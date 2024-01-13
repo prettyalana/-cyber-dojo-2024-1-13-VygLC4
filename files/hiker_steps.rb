@@ -11,3 +11,12 @@ end
 Then /^the score is (\d+)$/ do |answer|
   expect(answer.to_i).to eq(@result)
 end
+
+Given('an input number of {int}') do |int|
+# Given('an input number of {float}') do |float|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then('the result is {string}') do |string|
+  pending # Write code here that turns the phrase above into concrete actions
+end

@@ -1,17 +1,9 @@
-...UU
+...P-
 
-2 scenarios (1 undefined, 1 passed)
-5 steps (2 undefined, 3 passed)
-0m0.023s
+(::) pending steps (::)
 
-You can implement step definitions for undefined steps with these snippets:
+hiker_steps.rb:15:in `"an input number of {int}"'
 
-Given('an input number of {int}') do |int|
-# Given('an input number of {float}') do |float|
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Then('the result is {string}') do |string|
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
+2 scenarios (1 pending, 1 passed)
+5 steps (1 skipped, 1 pending, 3 passed)
+0m0.025s
