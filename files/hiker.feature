@@ -15,7 +15,7 @@ Feature: FizzBuzz
     | given | expected |
     |  30   |   "FizzBuzz" |
     |  90   |   "FizzBuzz" |
-    Examples: 
+    Examples: None of the above
     | given | expected |
     |  1    |   "1"    |
     | 98    |   "98"   |
