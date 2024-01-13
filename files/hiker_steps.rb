@@ -18,5 +18,5 @@ Given('an input number of {int}') do |int|
 end
 
 Then('the result is {string}') do |string|
-  # expect(string).to eq("1")
+  expect(string).to eq(@result_2)
 end
