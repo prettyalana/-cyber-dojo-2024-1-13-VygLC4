@@ -7,6 +7,10 @@ Feature: FizzBuzz
     | given | expected |
     |  1    |   "1"    |
     | 98    |   "98"   |
+    Examples: 
+    | given | expected |
+    |  3    |   "Fizz" |
+    |  6    |   "Fizz" |
     
   Scenario: Multiple of 3 yield Fizz
     Given an input number of 3
