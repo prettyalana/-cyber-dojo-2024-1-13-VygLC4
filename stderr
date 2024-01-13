@@ -1,1 +1,17 @@
+/sandbox/hiker.rb:5: syntax error, unexpected end-of-input, expecting `end' (SyntaxError)
+/sandbox/hiker_steps.rb:2:in `require_relative'
+/sandbox/hiker_steps.rb:2:in `<top (required)>'
+<internal:/usr/local/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+<internal:/usr/local/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/glue/registry_and_more.rb:123:in `load_code_file'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime/support_code.rb:145:in `load_file'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime/support_code.rb:82:in `block in load_files!'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime/support_code.rb:81:in `each'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime/support_code.rb:81:in `load_files!'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime.rb:274:in `load_step_definitions'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/runtime.rb:74:in `run!'
+/usr/local/bundle/gems/cucumber-8.0.0/lib/cucumber/cli/main.rb:29:in `execute!'
+/usr/local/bundle/gems/cucumber-8.0.0/bin/cucumber:9:in `<top (required)>'
+/usr/local/bundle/bin/cucumber:25:in `load'
+/usr/local/bundle/bin/cucumber:25:in `<main>'
 Stopped processing SimpleCov as a previous error not related to SimpleCov has been detected
