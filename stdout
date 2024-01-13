@@ -1,5 +1,19 @@
-..............
+...F............
 
-7 scenarios (7 passed)
-14 steps (14 passed)
-0m0.025s
+(::) failed steps (::)
+
+
+expected: "98"
+     got: "1"
+
+(compared using ==)
+ (RSpec::Expectations::ExpectationNotMetError)
+./hiker_steps.rb:11:in `"the result is {string}"'
+./hiker.feature:9:in `the result is "98"'
+
+Failing Scenarios:
+cucumber ./hiker.feature:7 # Scenario: FizzBuzz calculator
+
+8 scenarios (1 failed, 7 passed)
+16 steps (1 failed, 15 passed)
+0m0.046s
