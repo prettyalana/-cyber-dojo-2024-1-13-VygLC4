@@ -6,10 +6,7 @@ Feature: FizzBuzz
     Examples: 
     | given | expected |
     |  1    |   "1"    |
-    
-  Scenario: FizzBuzz calculator
-    Given an input number of 98
-    Then the result is "98"
+    | 98    |   "98"   |
     
   Scenario: Multiple of 3 yield Fizz
     Given an input number of 3
